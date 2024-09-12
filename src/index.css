@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .custom-ipad-layout {
+    flex-direction: column !important;
+    gap: 3rem 0 !important;
+  }
+}
+
+.swiper-pagination-number {
+  @apply text-white text-lg mx-3 mt-20 font-miniver cursor-pointer;
+}
+
+.swiper-pagination-number-active {
+  @apply text-gold underline text-xl mb-1 font-miniver font-bold;
+}
+.arrowes {
+  display: block !important;
+  z-index: 10 !important;
+}
+
+@media (max-width: 700px) {
+  .arrowes {
+    display: none !important;
+    z-index: 1 !important;
+  }
+}
