@@ -14,7 +14,7 @@ body {
 }
 
 .swiper-pagination-number {
-  @apply text-white text-lg mx-3 mt-20 font-miniver cursor-pointer;
+  @apply text-black text-lg mx-3 mt-20 font-miniver cursor-pointer;
 }
 
 .swiper-pagination-number-active {

@@ -11,7 +11,7 @@ export default {
         zentokyo: ['"Zen Tokyo Zoo"', "cursive"],
       },
       colors: {
-        gold: "#C8AB81",
+        gold: "#C19D56",
       },
       screens: {
         ipad: { min: "768px", max: "1024px" }, // Adjust this range as needed
