@@ -12,7 +12,7 @@ function BookATable() {
     return (
         <div className="container mx-auto bg-[#0F1D22] p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col items-center">
             <div className='my-20'>
-                <h3 className="text-xl text-gold font-miniver text-center mb-5">Laurent's Tasty Offer</h3>
+                <h3 className="text-xl text-gold font-greatVibes text-center mb-5">Laurent's Tasty Offer</h3>
                 <div className="flex items-center justify-center mb-16">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="mr-4">
                         <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>

@@ -5,7 +5,7 @@ import AboutUs2 from "@assets/AboutUs.jpg"
 const AboutUs = () => {
     return (
         <div className="container mx-auto px-12 py-16 mt-24 h-full">
-            <h3 className='text-xl text-gold font-miniver text-center mb-7'>Our Story </h3>
+            <h3 className='text-xl text-gold font-greatVibes text-center mb-7'>Our Story </h3>
             <div className="flex items-center justify-center mb-7">
                 <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="mr-4">
                     <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>

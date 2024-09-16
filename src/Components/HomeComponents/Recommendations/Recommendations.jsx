@@ -8,7 +8,7 @@ function Recommendations() {
                 <img src={recommendationImg} alt="recommendationImg" className='object-cover w-[85%] h-full' />
             </div>
             <div className='w-full lg:w-1/2 flex flex-col justify-center items-center'>
-                <h3 className='text-xl text-gold font-miniver text-center mb-3'>Recommendations</h3>
+                <h3 className='text-xl text-gold font-greatVibes text-center mb-3'>Recommendations</h3>
                 <div className="flex items-center justify-center mb-6 px-20 lg:px-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="mr-4 overflow-visible">
                         <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>

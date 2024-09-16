@@ -14,11 +14,11 @@ body {
 }
 
 .swiper-pagination-number {
-  @apply text-black text-lg mx-3 mt-20 font-miniver cursor-pointer;
+  @apply text-black text-xl mx-3 mt-20 font-greatVibes cursor-pointer;
 }
 
 .swiper-pagination-number-active {
-  @apply text-gold underline text-xl mb-1 font-miniver font-bold;
+  @apply text-gold underline text-2xl mb-1 font-greatVibes font-bold;
 }
 .arrowes {
   display: block !important;

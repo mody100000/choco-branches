@@ -18,7 +18,7 @@ const MenuSelection = () => {
     return (
         <div className="relative container mx-auto px-10 lg:px-40 py-10 bg-[#0F1D22] h-full">
             <div className='py-20 sm:py-20'>
-                <h3 className='text-xl text-gold font-miniver text-center mb-4'>Special selection</h3>
+                <h3 className='text-xl text-gold font-greatVibes text-center mb-4'>Special selection</h3>
                 <div className="flex items-center justify-center mb-16">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41.125" height="9.146" className="mr-4 overflow-visible">
                         <path fill="none" stroke="#9C7C57" strokeMiterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>

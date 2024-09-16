@@ -72,7 +72,7 @@ const IntroHome = () => {
                             <div className="absolute inset-0 bg-black bg-opacity-0"></div>
                             <div className="absolute inset-0 flex flex-col items-center lg:items-end justify-center text-center text-white py-4 px-4 lg:px-32">
                                 <div className='flex flex-col items-center max-w-2xl'>
-                                    <p className="text-gold text-4xl tracking-widest font-miniver">{slide.subtitle}</p>
+                                    <p className="text-gold text-6xl tracking-widest font-greatVibes">{slide.subtitle}</p>
                                     <h2 className="text-5xl md:text-8xl font-zentokyo tracking-widest my-4 text-black">{slide.title}</h2>
                                     <img src={line} alt="line" className='object-cover mb-4' />
                                     <p className="text-center  text-2xl  font-thin font-josefin text-black mb-8">{slide.description}</p>

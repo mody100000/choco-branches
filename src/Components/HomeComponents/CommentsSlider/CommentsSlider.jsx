@@ -54,7 +54,7 @@ const CommentsSlider = () => {
                     {testimonials.map((testimonial, index) => (
                         <SwiperSlide key={index}>
                             <div className="text-gray-400 px-4 py-8 sm:px-8 md:px-12 lg:px-16">
-                                <p className="text-sm sm:text-base md:text-lg lg:text-xl font-miniver text-center leading-relaxed mb-4 sm:mb-6">{testimonial.text}</p>
+                                <p className="text-sm sm:text-base md:text-lg lg:text-xl font-greatVibes text-center leading-relaxed mb-4 sm:mb-6">{testimonial.text}</p>
                                 <h5 className="text-lg sm:text-xl md:text-2xl text-gold font-semibold text-center tracking-wider mb-2">{testimonial.author}</h5>
                                 <p className="text-base sm:text-lg md:text-xl text-center mb-10">{testimonial.job}</p>
                             </div>

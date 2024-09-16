@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         quicksand: ["Quicksand", "sans-serif"],
-        miniver: ["Miniver", "serif"],
+        greatVibes: ['"Great Vibes"', "cursive"],
         josefin: ["Josefin Sans", "sans-serif"],
         comingSoon: ["Coming Soon", "cursive"],
         zentokyo: ['"Zen Tokyo Zoo"', "cursive"],
