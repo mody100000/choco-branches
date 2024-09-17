@@ -58,6 +58,7 @@ const IntroHome = () => {
                     bulletClass: 'swiper-pagination-number',
                     bulletActiveClass: 'swiper-pagination-number-active',
                 }}
+                // TODO:dont forget to change the autoplay time
                 autoplay={{ delay: 75000 }}
                 loop
                 speed={1100}
