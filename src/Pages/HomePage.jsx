@@ -9,6 +9,7 @@ import GalleryImage from '../Components/GalleryImage/GalleryImage';
 import Plans from '../Components/Plans/Plans';
 import Menu from '../Components/Menu/Menu';
 import TimelineComponent from '../Components/HomeComponents/TimelineComponent/TimelineComponent';
+import Staff from '../Components/HomeComponents/Staff/Staff';
 
 
 const HomePage = () => {
@@ -48,6 +49,9 @@ const HomePage = () => {
                         </div>
                         <div className='relative z-10 '>
                             <TimelineComponent />
+                        </div>
+                        <div className='relative z-10 mt-20 '>
+                            <Staff />
                         </div>
                     </div>
                     <div className='px-3 sm:px-28 relative z-10 mb-20'>

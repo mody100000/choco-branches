@@ -4,7 +4,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
-import image1 from "@assets/image1.jpg";
+import timelineImg1 from "@assets/timelineImg1.jpg";
+import timelineImg2 from "@assets/timelineImg2.jpg";
+import timelineImg3 from "@assets/timelineImg3.jpg";
+import timelineImg4 from "@assets/timelineImg4.jpg";
+
 import line from "@assets/line.png";
 
 const timelineData = [
@@ -13,11 +17,11 @@ const timelineData = [
         title: "EARLY BEGINNING",
         subtitle: "Year of beginning",
         description: "1996. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.",
-        image: image1
+        image: timelineImg1
     },
-    { year: 1999, title: "EXPANSION", subtitle: "Growth phase", description: "1999. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.", image: image1 },
-    { year: 2003, title: "INNOVATION", subtitle: "New products", description: "2003. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.", image: image1 },
-    { year: 2008, title: "GLOBAL REACH", subtitle: "International markets", description: "2008. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.", image: image1 },
+    { year: 1999, title: "EXPANSION", subtitle: "Growth phase", description: "1999. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.", image: timelineImg2 },
+    { year: 2003, title: "INNOVATION", subtitle: "New products", description: "2003. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.", image: timelineImg3 },
+    { year: 2008, title: "GLOBAL REACH", subtitle: "International markets", description: "2008. - Year of beggining. Lorem ipsum dolor sit amet, ad malorum rationibus ius, cu vix eirmod iudicabit deseruise, nam melius constituto in. Eos platonem electram et. Mei dictas atomorum voluptatibus eu, tollit sanctus usu ut.", image: timelineImg4 },
 ];
 
 const TimelineComponent = () => {
@@ -56,7 +60,7 @@ const TimelineComponent = () => {
                                     <img
                                         src={item.image}
                                         alt={item.title}
-                                        className="w-56 h-auto md:w-72 object-cover rounded-lg"
+                                        className="w-80 h-auto md:w-96 object-cover rounded-lg"
                                     />
                                 </div>
                             </div>
