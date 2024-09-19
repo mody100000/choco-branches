@@ -10,6 +10,9 @@ import Plans from '../Components/Plans/Plans';
 import Menu from '../Components/Menu/Menu';
 import TimelineComponent from '../Components/HomeComponents/TimelineComponent/TimelineComponent';
 import Staff from '../Components/HomeComponents/Staff/Staff';
+import ContactUs from '../Components/HomeComponents/ContactUs/ContactUs';
+import HomeVideo from '../Components/HomeComponents/AboutUsVideo/AboutUsVideo';
+import TestimonialSlider from '../Components/HomeComponents/TestimonialSlider/TestimonialSlider';
 
 
 const HomePage = () => {
@@ -52,6 +55,15 @@ const HomePage = () => {
                         </div>
                         <div className='relative z-10 mt-20 '>
                             <Staff />
+                        </div>
+                        <div className='relative z-10'>
+                            <ContactUs />
+                        </div>
+                        <div className='relative z-10'>
+                            <HomeVideo />
+                        </div>
+                        <div className='relative z-10'>
+                            <TestimonialSlider />
                         </div>
                     </div>
                     <div className='px-3 sm:px-28 relative z-10 mb-20'>

@@ -3,7 +3,7 @@ import footerLogo from "@assets/logo.webp"
 const Footer = () => {
     return (
         <footer className="py-16">
-            <div className="container mx-auto text-center text-gray-300 font-josefin leading-relaxed">
+            <div className="container mx-auto text-center text-gray-900 font-josefin leading-relaxed">
                 <div className="mb-6">
                     <div className="inline-block">
                         <img
